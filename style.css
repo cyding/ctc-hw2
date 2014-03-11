@@ -106,7 +106,8 @@ img {
     left:0px;
   }
   to {
-    right:-500px;
+    left:500px; /* at these times, the following properties, beginning, 0px, end 500 px, function linear
+    so it changes linearly from beginning to end. */
   }
 }
 
@@ -116,6 +117,7 @@ img {
   }
   to {
     /* fill me out */
+    -webkit-transform:rotate(360deg);
   }
 }
 
